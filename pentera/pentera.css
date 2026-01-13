@@ -386,20 +386,6 @@ footer {
     font-size: 14px;
 }
 
-/* RESPONSIVO */
-@media (max-width: 768px) {
-    header {
-    padding: 0 24px;
-    }
-    .hero {
-    padding: 64px 24px;
-    }
-    section {
-    padding: 32px 24px;
-    }
-}
-
-/*  ==============================================  */
 
 .esteira {
     overflow: hidden;
@@ -532,4 +518,75 @@ footer {
 
 .esteira-track:hover {
   animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  header {
+        flex-direction: column;
+        height: auto;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav.bus {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .nav-item {
+        font-size: 0.95rem;
+    }
+        .hero {
+        padding: 48px 16px;
+        text-align: center;
+    }
+
+  .vendor-hero {
+    padding: 64px 24px;
+    text-align: center;
+  }
+
+  .vendor-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vendor-logo {
+    max-width: 160px;
+    margin-bottom: 24px;
+  }
+
+  .vendor-hero h1 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+
+  .vendor-hero p {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 90%;
+  }
+
+  .vendor-layout {
+    grid-template-columns: 1fr;
+    padding: 32px 24px;
+  }
+
+  .vendor-sidebar {
+    order: 2;
+    margin-top: 48px;
+  }
+
+  .vendor-content {
+    order: 1;
+  }
 }
