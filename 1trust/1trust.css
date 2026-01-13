@@ -553,7 +553,7 @@ footer {
     padding: 64px 24px;
     text-align: center;
     min-height: 320px;
-    background-image: url("download.png");
+    background-image: url("obj1.avif");
     background-position: center top;
   }
 
@@ -617,3 +617,4 @@ footer {
     justify-content: center;
   }
 }
+
