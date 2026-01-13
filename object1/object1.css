@@ -552,7 +552,7 @@ footer {
     padding: 64px 24px;
     text-align: center;
     min-height: 320px;
-    background-image: url("obj1.png");
+    background-image: url("hero1.jpg");
     background-position: center top;
   }
 
@@ -616,3 +616,4 @@ footer {
     justify-content: center;
   }
 }
+
