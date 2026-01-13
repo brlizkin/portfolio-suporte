@@ -386,21 +386,6 @@ footer {
     font-size: 14px;
 }
 
-/* RESPONSIVO */
-@media (max-width: 768px) {
-    header {
-    padding: 0 24px;
-    }
-    .hero {
-    padding: 64px 24px;
-    }
-    section {
-    padding: 32px 24px;
-    }
-}
-
-/*  ==============================================  */
-
 .esteira {
     overflow: hidden;
     background: rgba(255,255,255,0.6);
@@ -533,3 +518,4 @@ footer {
 .esteira-track:hover {
   animation-play-state: paused;
 }
+
